@@ -2,7 +2,14 @@
   <%- include('./partials/head') %>
   <body>
     <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
+    <p>Add new message:</p>
+    <form method="POST" action="/new">
+      <label for="text">Function Title:</label>
+      <textarea type="text" name="text" id="text" required></textarea>
+      <label for="user">User:</label>
+      <input type="user" name="user" id="user" required>
+      <button type="submit">Send!</button>
+   </form>
     <%- include('./partials/footer') %>
   </body>
 </html>
