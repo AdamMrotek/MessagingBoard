@@ -1,11 +1,19 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Message Board | <%= title %></title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
-  </head>
-  <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
-  </body>
+<html lang="en">
+  <%- include('./partials/head') %>
+<body>
+<div class="blog content">
+  <h2>Current Messages:</h2>
+<% if(messages.length >0){%>
+  <% messages.forEach(message =>  { %> 
+       <h3><%=message.text %></h3>
+       <p><%= message.user%></p>
+       <p><%=message.added%></p>
+      </a>
+  <%  })  %> 
+  <% }else{ %> 
+      <h2>No messages to display</h2>
+  <% } %> 
+</div>
+<%- include('./partials/footer') %>
+</body>
 </html>
