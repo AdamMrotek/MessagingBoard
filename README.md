@@ -13,7 +13,7 @@ NodeJs, Express and MongoDB powered project
     install nodemon
     ```
 * add scrips for development 
-    ```javascrip
+    ```javascript
     "devstart":
      "nodemon ./bin/www",
 
