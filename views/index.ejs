@@ -8,7 +8,7 @@
   <% messages.forEach(message =>  { %> 
        <h3><%=message.text %></h3>
        <p><%= message.user%></p>
-       <p><%=message.added%></p>
+       <p><%=message.added.toLocaleString()%></p>
       </a>
   <%  })  %> 
   <% }else{ %> 
