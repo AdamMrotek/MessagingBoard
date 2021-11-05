@@ -23,3 +23,13 @@ NodeJs, Express and MongoDB powered project
 ---
 ## Published on heroku
 <a href="https://pure-mountain-02423.herokuapp.com/" target="_blank" rel="noopener noreferrer">Heroku Link</a>
+
+---
+<br>
+<br>
+
+### This branch is here to try implement color pallet and visual estetics
+
+visual source 
+![Lets add a image]("/images/LogoImage.png")
+![Lets add a image]("/images/ColorPalletImage.png")
