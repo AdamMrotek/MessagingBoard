@@ -22,4 +22,4 @@ NodeJs, Express and MongoDB powered project
     ```
 ---
 ## Published on heroku
-<a href="https://pure-mountain-02423.herokuapp.com/" target="_blank">Heroku Link</a>
+<a href="https://pure-mountain-02423.herokuapp.com/" target="_blank" rel="noopener noreferrer">Heroku Link</a>
