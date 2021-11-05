@@ -31,5 +31,5 @@ NodeJs, Express and MongoDB powered project
 ### This branch is here to try implement color pallet and visual estetics
 
 visual source 
-![Lets add a image]("/images/LogoImage.png")
-![Lets add a image]("/images/ColorPalletImage.png")
+![Lets add a image](./public/images/LogoImage.png)
+![Lets add a image](./public/images/ColorPalletImage.png)
