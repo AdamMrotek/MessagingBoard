@@ -1,13 +1,14 @@
 <html lang="en">
   <%- include('./partials/head') %>
 <body>
-<div class="blog content">
+  <%- include('./partials/nav') %>
+<div class="content">
   <h2>Current Messages:</h2>
 <% if(messages.length >0){%>
   <% messages.forEach(message =>  { %> 
        <h3><%=message.text %></h3>
        <p><%= message.user%></p>
-       <p><%=message.added%></p>
+       <p><%=message.added.toDate('2000-01-05T23:59:59Z')%></p>
       </a>
   <%  })  %> 
   <% }else{ %> 

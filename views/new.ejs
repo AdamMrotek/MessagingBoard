@@ -1,9 +1,11 @@
 <html>
   <%- include('./partials/head') %>
   <body>
-    <h1><%= title %></h1>
-    <p>Add new message:</p>
+    <%- include('./partials/nav') %>
+ 
     <form method="POST" action="/new">
+      <h1>Add new message:</h1>
+     
       <label for="text">Function Title:</label>
       <textarea type="text" name="text" id="text" required></textarea>
       <label for="user">User:</label>

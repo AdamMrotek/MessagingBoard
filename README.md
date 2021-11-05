@@ -23,5 +23,4 @@ NodeJs, Express and MongoDB powered project
 ---
 ## Published on heroku
 
-[Heroku Link](https://pure-mountain-02423.herokuapp.com/)
 <a href="https://pure-mountain-02423.herokuapp.com/" target="_blank">Heroku Link</a>
